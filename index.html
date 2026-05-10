@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forno 窑炉披萨 · 门店菜单</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">◉</span>
+          <div>
+            <p class="brand-name">Forno</p>
+            <p class="brand-tag">窑炉披萨 · 本店现烤</p>
+          </div>
+        </div>
+        <nav class="nav" aria-label="菜单分类">
+          <button type="button" class="nav-btn active" data-filter="all">全部</button>
+          <button type="button" class="nav-btn" data-filter="classic">经典</button>
+          <button type="button" class="nav-btn" data-filter="special">创意</button>
+          <button type="button" class="nav-btn" data-filter="side">小食饮品</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">门店菜单 · 每日新鲜面团</p>
+          <h1>趁热上桌的<span class="accent">那不勒斯风味</span></h1>
+          <p class="lead">
+            400°C 石窑短时烘烤，饼底柔韧有嚼劲，芝士拉丝看得见。以下为店内在售菜品，欢迎到店堂食或外带。
+          </p>
+          <div class="hero-meta">
+            <span class="pill">手工揉面</span>
+            <span class="pill">进口番茄</span>
+            <span class="pill">马苏里拉</span>
+          </div>
+        </div>
+        <div class="hero-card" role="presentation">
+          <div class="hero-pizza"></div>
+          <p class="hero-note">今日推荐 · 玛格丽特</p>
+        </div>
+      </section>
+
+      <section class="menu-section" aria-labelledby="menu-heading">
+        <div class="section-head">
+          <h2 id="menu-heading">本店菜品</h2>
+          <p class="section-desc">点击上方分类筛选 · 价格以门店公示为准</p>
+        </div>
+        <ul class="menu-grid" id="menu-grid"></ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Forno 窑炉披萨 · 营业时间 11:00–22:00 · 仅供展示</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
