@@ -54,6 +54,15 @@ const MENU = [
     hot: false,
   },
   {
+    id: "cream-pizza",
+    category: "special",
+    name: "奶油披萨",
+    price: 89,
+    desc: "淡奶油白酱底、马苏里拉与蒜香蘑菇，奶香绵密，窑烤后边缘微焦。",
+    tags: ["奶香", "白酱"],
+    hot: false,
+  },
+  {
     id: "seafood",
     category: "special",
     name: "蒜香海鲜",
